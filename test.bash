@@ -13,11 +13,11 @@ res=$(echo 840 | ./decicon 50)
 
 res=$(echo Hello | ./decicon 16)
 [ "$?" = 0 ] && echo "command error" && exit ${res}
-[ "${res}" = "" ] && echo "command error" && exit ${res}
+[ "${res}" != "" ] && echo "command error" && exit ${res}
 
 res=$(echo 10 | ./decicon abc)
 [ "$?" = 0 ] && echo "command error" && exit ${res}
-[ "${res}" = "" ] && echo "command error" && exit ${res}
+[ "${res}" != "" ] && echo "command error" && exit ${res}
 
 bash uninstall_decicon.sh
 res=$?
