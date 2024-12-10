@@ -32,7 +32,7 @@ echo 123 | decicon 16
 7B
 ```
 ## 必須ソフトウェア
-- Python3 (テスト済：**3.6〜3.11**)
+- Python3 (テスト済：**3.0〜3.11**)
 ## テスト環境
 - Ubnutu 22.04.5 LTS
 - Microsoft Windows Server 2022 10.0.20348 Datacenter
