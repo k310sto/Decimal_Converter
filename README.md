@@ -1,4 +1,7 @@
 # Decimal Converter
+[![test](https://github.com/k310sto/Decimal_Converter/actions/workflows/test.yml/badge.svg)](https://github.com/k310sto/Decimal_Converter/actions/workflows/test.yml)
+[![](https://img.shields.io/github/license/k310sto/Sudoku_Solver)](https://github.com/k310sto/Sudoku_Solver/blob/main/LICENSE)
+<br>
 10進数をn進数へ変換します。
 ## インストール
 ```
