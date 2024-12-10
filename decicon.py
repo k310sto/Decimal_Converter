@@ -10,7 +10,7 @@ if(len(sys.argv)==2):
     if not(sys.argv[1].isdigit()):
         sys.exit("Error: Invalid argument")
     else:
-        if(int(sys.argv[1])<0 or 62<int(sys.argv[1])):
+        if(int(sys.argv[1])<2 or 62<int(sys.argv[1])):
             sys.exit("Error: Argument out of range")
         else:
             n = int(sys.argv[1])
