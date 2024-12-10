@@ -13,7 +13,7 @@ echo 840 | ./decicon 50
 res=$?
 [ "${res}" = Ge ] && echo "command error" && exit ${res}
 
-bash uninstall_bash.sh
+bash uninstall_decicon.sh
 res=$?
 [ "${res}" = 1 ] && echo "uninstall error"
 
