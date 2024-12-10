@@ -1,0 +1,21 @@
+name: test
+on: push
+jobs:
+  ubuntu-latest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: All test
+        run: bash -xv ./test.bash
+  windws-latest:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: All test
+        run: bash -xv ./test.bash
+  macos-latest:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: All test
+        run: bash -xv ./test.bash
