@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 # SPDX-FileCopyrightText: 2024 Kensuke Sato　　　　
 # SPDX-License-Identifier: BSD-3-Clause
 
