@@ -5,6 +5,6 @@
 chmod +x decicon.py
 mv decicon.py decicon
 cd ~
-if ! grep -q "export PATH+=:~/Decimal_Converter/decicon" "./.bashrc"; then
-	echo "export PATH+=:~/Decimal_Converter/decicon" >> ~/.bashrc;
+if ! grep -q "export PATH+=:~/Decimal_Converter/" "./.bashrc"; then
+	echo "export PATH+=:~/Decimal_Converter/" >> ~/.bashrc;
 fi
