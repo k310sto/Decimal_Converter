@@ -9,7 +9,7 @@ res=$?
 
 ls
 
-echo 840 | ./decicon.py 50
+echo 840 | ./decicon 50
 res=$?
 [ "${res}" = Ge ] && echo "command error" && exit ${res}
 
