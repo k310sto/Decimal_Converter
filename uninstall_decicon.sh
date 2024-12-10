@@ -3,6 +3,6 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 cd ~
-if grep -q "export PATH+=:~/Decimal_Converter/decicon" "./.bashrc"; then
-	sed -i -e "s@export PATH+=:~/Decimal_Converter/decicon@@g" ~/.bashrc;
+if grep -q "export PATH+=:~/Decimal_Converter/" "./.bashrc"; then
+	sed -i -e "s@export PATH+=:~/Decimal_Converter/@@g" ~/.bashrc;
 fi
