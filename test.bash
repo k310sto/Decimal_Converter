@@ -7,7 +7,7 @@ sh install_decicon.sh
 res=$?
 [ "${res}" = 1 ] && echo "install error" && exit ${res}
 
-echo 840 | decicon 50
+echo 840 | ./decicon.py 50
 res=$?
 [ "${res}" = Ge ] && echo "command error" && exit ${res}
 
