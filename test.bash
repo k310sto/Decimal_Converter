@@ -9,7 +9,7 @@ res=$?
 
 res=$(echo 840 | ./decicon 50)
 [ "$?" != 0 ] && echo "command error" && exit ${res}
-[ "${res}" = Ge ] && echo "command error" && exit ${res}
+[ "${res}" != Ge ] && echo "command error" && exit ${res}
 
 res=$(echo Hello | ./decicon 16)
 [ "$?" = 0 ] && echo "command error" && exit ${res}
