@@ -25,5 +25,4 @@ res=$(echo 10 | ./decicon abc)
 [ "$?" = 0 ] && echo "command error" && exit 1
 [ "${res}" != "" ] && echo "command error" && exit 1
 
-[ "${res}" = 0 ] && echo "all clear"
-exit ${res}
+exit 0
