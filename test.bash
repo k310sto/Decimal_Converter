@@ -2,6 +2,8 @@
 # SPDX-FileCopyrightText: 2024 Kensuke Sato
 # SPDX-License-Identifier: BSD-3-Clause
 
+chmod +x decicon
+
 res=0
 res=$(echo 840 | ./decicon 50)
 [ "$?" != 0 ] && echo "command error" && exit 1
