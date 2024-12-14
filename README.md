@@ -27,7 +27,6 @@ echo 123 | decicon 16
 - Python（テスト済：**3.0〜3.12**）
 ## テスト環境
 - Ubnutu 22.04.5 LTS
-- Microsoft Windows Server 2022 10.0.20348 Datacenter
 - macOS 14.7.1 23H222
 ## ライセンス
 このスクリプトは、3条項BSDライセンスの下、再頒布および使用が許可されます。<br>
