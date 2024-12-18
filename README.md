@@ -8,7 +8,7 @@
 git clone https://github.com/k310sto/Decimal_Converter.git
 cd Decimal_Converter
 chmod +x decicon
-mv decicon /usr/local/bin/
+sudo mv decicon /usr/local/bin/
 ```
 ## 機能・使用例
 数値を入力すると、2進数に変換された数値が出力されます。
