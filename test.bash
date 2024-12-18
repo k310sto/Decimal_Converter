@@ -10,19 +10,19 @@ res=$(echo 840 | ./decicon 50)
 [ "${res}" != Ge ] && echo "command error" && exit 1
 
 res=$(echo 999 | ./decicon 63)
-[ "$?" = 0 ] && echo "command error" && exit 1
+[ "$?" != 1 ] && echo "command error" && exit 1
 [ "${res}" != "" ] && echo "command error" && exit 1
 
 res=$(echo 999 | ./decicon 1)
-[ "$?" = 0 ] && echo "command error" && exit 1
+[ "$?" != 1 ] && echo "command error" && exit 1
 [ "${res}" != "" ] && echo "command error" && exit 1
 
 res=$(echo Hello | ./decicon 16)
-[ "$?" = 0 ] && echo "command error" && exit 1
+[ "$?" != 1 ] && echo "command error" && exit 1
 [ "${res}" != "" ] && echo "command error" && exit 1
 
 res=$(echo 10 | ./decicon abc)
-[ "$?" = 0 ] && echo "command error" && exit 1
+[ "$?" != 1 ] && echo "command error" && exit 1
 [ "${res}" != "" ] && echo "command error" && exit 1
 
 exit 0
